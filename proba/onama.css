@@ -1,0 +1,156 @@
+html, body {
+    margin: 0;
+}
+
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Merienda', cursive;
+    color: #333;
+    display: grid;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #7CBB42;
+}
+
+.wrapper {
+    flex: 1;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: #7CBB42;
+    color: #ecf0f1;
+    text-align: center;
+    border-bottom: 2px solid black;
+    padding: 0px 0;
+    height: fit-content;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 50px;
+    margin-right: 10px;
+}
+
+.contact-info {
+    margin-left: auto;
+}
+
+.contact-info a {
+    text-decoration: none;
+    color: #ecf0f1;
+    font-weight: bold;
+}
+
+.contact-info a:hover {
+    color: #2c3e50;
+}
+
+.navbar {
+    background-color: #333;
+    padding: 15px 0;
+    width: 100%;
+}
+
+.nav-logo {
+    display: flex;
+    justify-content: center;
+}
+
+.logo1 {
+    width: 30px;
+}
+
+.nav-menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+
+.nav-item {
+    margin: 0 15px;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: #ecf0f1;
+    font-weight: bold;
+    font-size: 1.2em;
+    transition: color 0.3s ease;
+}
+
+.nav-item a:hover {
+    color: #2c3e50;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+}
+
+.about-content {
+    padding: 20px;
+    border-radius: 15px;
+    background-color: #333;
+    color: white;
+    margin: 20px auto;
+}
+
+.footer {
+    text-align: center;
+    width: 100%;
+    height: 100px;
+    background-color: #5E8E3E;
+    padding: 10px 0px 0px 0px;
+    border-top: 1px solid #2c3e50;
+    position: end;
+    height: auto;
+}
+
+.social-icons i {
+    font-size: 2em;
+    margin: 0 10px;
+    color: #ecf0f1;
+    transition: color 0.3s ease;
+}
+
+.social-icons i:hover {
+    color: #3498db;
+}
+
+.footer-links ul {
+    list-style: none;
+    margin-top: 10px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #ecf0f1;
+    font-weight: bold;
+    font-size: 1.2em;
+    transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: #2c3e50;
+}
+
+.footer-logo {
+    width: 30px;
+    margin-top: 10px;
+}
