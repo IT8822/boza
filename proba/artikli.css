@@ -31,7 +31,7 @@ body {
     color: #ecf0f1;
     text-align: center;
     border-bottom: 2px solid black;
-    animation: fadeInDown 1s; /* Apply fadeInDown animation */
+    animation: fadeInDown 1s; 
 }
 
 h1 {
@@ -110,7 +110,7 @@ main h2 {
     margin-bottom: 20px;
     font-size: 2.5em;
     color: #5E8E3E;
-    animation: fadeInUp 1s; /* Apply fadeInUp animation */
+    animation: fadeInUp 1s; 
 }
 
 main p {
@@ -123,8 +123,8 @@ main p {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    max-width: 800px; /* Limit the maximum width of the product category container */
-    margin: 0 auto; /* Center the container */
+    max-width: 800px; 
+    margin: 0 auto; 
 }
 
 .product-category h4 {
@@ -133,7 +133,7 @@ main p {
     margin-bottom: 10px;
     text-align: center;
     width: 100%;
-    animation: bounce 1s; /* Apply bounce animation */
+    animation: bounce 1s; 
 }
 
 .product-category h4:hover {
@@ -150,15 +150,15 @@ main ul {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex: 0 0 calc(50% - 20px); /* Decrease the width */
+    flex: 0 0 calc(50% - 20px); 
     margin-bottom: 20px;
     border: 2px solid #5E8E3E;
     border-radius: 15px;
     background-color: #ecf0f1;
     transition: transform 0.5s ease;
-    animation: fadeIn 1s; /* Apply fadeIn animation */
-    width: calc(50% - 20px + 150px); /* Increase the width by 150px */
-    padding: 20px; /* Add padding */
+    animation: fadeIn 1s; 
+    width: calc(50% - 20px + 150px); 
+    padding: 20px; 
 }
 
 .product-category li:hover {
@@ -174,11 +174,11 @@ main ul {
 
 .product-category img {
     border-radius: 15px;
-    max-width: calc(100% - 50px); /* Decrease the width by 50px */
-    max-height: calc(100% - 50px); /* Decrease the height by 50px */
+    max-width: calc(100% - 50px); 
+    max-height: calc(100% - 50px); 
     width: auto;
     height: auto;
-    transition: transform 0.5s ease; /* Apply transform transition */
+    transition: transform 0.5s ease; 
 }
 
 .product-category img:hover {
@@ -207,7 +207,6 @@ footer a:hover {
     color: #e74c3c;
 }
 
-/* Keyframes for animations */
 @keyframes fadeInDown {
     from {
         opacity: 0;
