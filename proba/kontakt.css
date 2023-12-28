@@ -181,7 +181,6 @@ form input[type="submit"]:hover {
     color: #e74c3c;
 }
 
-/* Keyframes for animations */
 @keyframes fadeInDown {
     from {
         opacity: 0;
@@ -212,8 +211,6 @@ form input[type="submit"]:hover {
         opacity: 1;
     }
 }
-
-/* Responsive Styles */
 
 @media only screen and (min-width: 320px) and (max-width: 425px) {
     .nav-menu {
